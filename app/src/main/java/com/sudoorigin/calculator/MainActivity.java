@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         newAlert.setTitle("Please note!")
                 .setMessage("1) Multiple entries not supported yet.\n2) Avoid clicking again on symbols(+,-,x,\u00F7,%,^), it will do wrong calculation.\n3) If you clicked by mistake click on cancel(C) button then enter values again \n4) If UI expended more than screen size after calculation click on 'C' it will restore. \n   Thank you!")
                 .setIcon(android.R.drawable.ic_dialog_info)
-                .setPositiveButton("Ok", null)
+                .setPositiveButton("Done", null)
                 .setNegativeButton("Exit", (dialog, which) -> finish())
                 .show();
         super.onCreate(savedInstanceState);
